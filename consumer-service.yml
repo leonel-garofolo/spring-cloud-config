@@ -1,10 +1,8 @@
 server:
   port: ${PORT:8889}
 
-spring:
-  cloud:
-    config:
-       import-check:
-         enabled: false
-
 message: Consumer configuration server is alive 2!
+
+spring:
+  config:
+    import: developer.properties
