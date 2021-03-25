@@ -7,4 +7,4 @@ spring:
        import-check:
          enabled: false
 
-message: Consumer configuration server is alive!
+message: Consumer configuration server is alive 2!
