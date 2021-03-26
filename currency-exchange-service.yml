@@ -1,0 +1,5 @@
+server:
+  port: ${PORT:8002}
+
+message: Currency Exchange configuration server is alive!
+
