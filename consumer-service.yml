@@ -5,4 +5,4 @@ message: Consumer configuration server is alive 2!
 
 spring:
   config:
-    import: developer.properties
+    import: spring.config.import=optional:configserver:http://localhost:8888
