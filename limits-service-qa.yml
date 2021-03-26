@@ -1,0 +1,6 @@
+server:
+   port: 9092
+
+limits-services:
+   minimun: 22
+   maximun: 2222

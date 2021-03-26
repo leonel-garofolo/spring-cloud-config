@@ -1,0 +1,6 @@
+server:
+   port: 9090
+
+limits-services:
+   minimun: 8
+   maximun: 8888

@@ -1,0 +1,6 @@
+server:
+   port: 9091
+
+limits-services:
+   minimun: 111
+   maximun: 1111
