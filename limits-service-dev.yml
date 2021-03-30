@@ -1,6 +1,11 @@
 server:
    port: 9091
 
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+      
 limits-services:
    minimun: 111
    maximun: 1111
