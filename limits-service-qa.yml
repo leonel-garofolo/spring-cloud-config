@@ -7,5 +7,5 @@ eureka:
       default-zone: http://localhost:8761/eureka
       
 limits-services:
-   minimun: 225
-   maximun: 2225
+   minimun: 226
+   maximun: 2226
