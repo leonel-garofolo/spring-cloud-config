@@ -10,5 +10,11 @@ eureka:
     service-url:
       default-zone: http://localhost:8761/eureka
 
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: '*'      
+
 message: Consumer configuration server is alive 2!
 
